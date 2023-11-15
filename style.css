@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.main{
+    font-family: 'Roboto', sans-serif;
+    width: 336px;
+height: 100%;
+border-radius: 10px;
+border: 1px solid #C4C4C4;
+background: rgba(196, 196, 196, 0.00);
+margin: auto;
+
+}
+.head{
+    height: 28px;
+    width: 100%;
+    background-color: #FFDC40;;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+label{
+    position: relative;
+    display: inline-block;
+}
+input{
+    width: 259px;
+height: 37px;
+border-radius: 10px;
+border: 1px solid #C4C4C4;
+background: rgba(196, 196, 196, 0.00);
+padding-left: 27px;
+
+}
+.clean{
+    position: absolute;
+    top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+}
+.clean2{
+    position: absolute;
+    top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: none;
+}
+.section{
+    display:block;
+    width: 60%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.sort{
+    margin-left:261px;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: #833ae0;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 30px;
+    border-color: #833ae0;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.button{
+    display: flex;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;   
+    align-items: center; 
+    position: relative;
+}
+.plus{
+    top: 17px;
+    left: -18px;
+    padding: 10px 15px 11px 15px;
+    border-radius: 50%;
+    background-color: #A084E8;
+    position: absolute;
+    color: white;
+    border-color: #A084E8;
+}
+h1{
+    text-align: center;
+}
+.list{
+    position: relative;
+    display: none;
+}
+.list-item{
+    width: 288px;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    background: rgba(196, 196, 196, 0.00);
+}
+
+
+.list2{
+    display: flex;
+    flex-direction: row;
+
+}
+.list2 p{
+   
+    width: 80%;
+    margin: 4px;
+    
+}
+.li2{
+
+    list-style-type:none;
+}
+
+.list-item{
+    margin-bottom: 20px;
+}
+.add{
+    display: block;
+}
